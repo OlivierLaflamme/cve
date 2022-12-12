@@ -1,6 +1,6 @@
 # cve
 
-Comfast vulns are silly and not low level, all UI stuff no real code review or reversing anything not posting on blog because vulns are weak. Vendor was given every oppertunity to establish a communication channel.        
+Comfast CF-WR623N router firmware version V2.3.0.1 and the driver version was 4.1.0.0_CL15074 vulns are silly and not low level, all UI stuff no real code review or reversing anything not posting on blog because vulns are weak. Vendor was given every oppertunity to establish a communication channel.        
 
 #### COMFAST Disclosure timeline        
 June 16, 2022: Initial discovery         
