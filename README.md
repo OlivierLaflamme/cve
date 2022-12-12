@@ -8,7 +8,7 @@ Comfast CF-WR623N router firmware version V2.3.0.1 and the driver version was 4.
 
 #### COMFAST Disclosure timeline        
 June 16, 2022: Initial discovery         
-June 16, 2022: Vendor notified about vulnerability disclosed via email
+June 16, 2022: Vendor notified about vulnerability disclosed via email       
 June 17, 2022: Attempted to contact vendor via facebook        
 June 17, 2022: Attempted to contact vendor via buyer portal      
 June 22, 2022: Attempted to contact vendor via weibo and wechat      
