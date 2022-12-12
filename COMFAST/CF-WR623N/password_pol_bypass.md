@@ -4,6 +4,9 @@ As seen below the frontend forces a 5-32 password
 
 ![image](https://user-images.githubusercontent.com/25066959/207156643-5444116a-0e4b-45a8-b0a8-752eaa8c5751.png)
 
+Below we're going to be setting the password or the admin user to the single character `k`     
+
 ![image](https://user-images.githubusercontent.com/25066959/207156671-0c23f7e9-c58a-4f59-8f3f-6a9ac6e63935.png)
 
+The password changed worked because we're not able to auth as the admin user with the password `k`      
 ![image](https://user-images.githubusercontent.com/25066959/207156690-f84ed5db-7884-4bd8-845a-48fe2ef03a40.png)
