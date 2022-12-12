@@ -1,5 +1,9 @@
 # cve
 
+### This repo is a dump of vulns i want CVE's assigned for that arent good enough to be a blog. in this readme ill mainly include the disclosure timelines of the products i toy arround with.       
+
+-----
+
 Comfast CF-WR623N router firmware version V2.3.0.1 and the driver version was 4.1.0.0_CL15074 vulns are silly and not low level, all UI stuff no real code review or reversing anything not posting on blog because vulns are weak. Vendor was given every oppertunity to establish a communication channel.        
 
 #### COMFAST Disclosure timeline        
