@@ -28,13 +28,15 @@ December 12, 2022: Filing for CVE's
 
 ----
 
-TIANJIE CPE906-3 router is the same story... i didnt spend much time on it and actually broke it while dumping the firmware from it
-April 12, 2022: initial discovery 
-April 12, 2022: Attempted 1st contact over multiple communication channels
-May 2, 2022: Attempted 2st contact over multiple communication channels
-May 15, 2022: Attempted 3st contact over multiple communication channels
-July 18, 2022: Attempted 4st contact over multiple communication channels this time over identified wechat and qq numbers and trademark holders
-September 7, 2022: Attempted 5st contact over all the previously attempted channels of communication in english and chinese
-December 16, 2022: Filing for the CVE
+TIANJIE CPE906-3 router is the same story... i didnt spend much time on it and actually broke it while dumping the firmware from it              
+
+#### TIANJIE Disclosure timeline       
+April 12, 2022: initial discovery         
+April 12, 2022: Attempted 1st contact over multiple communication channels         
+May 2, 2022: Attempted 2st contact over multiple communication channels          
+May 15, 2022: Attempted 3st contact over multiple communication channels               
+July 18, 2022: Attempted 4st contact over multiple communication channels this time over identified wechat and qq numbers and trademark holders          
+September 7, 2022: Attempted 5st contact over all the previously attempted channels of communication in english and chinese        
+December 16, 2022: Filing for the CVE            
 
 
