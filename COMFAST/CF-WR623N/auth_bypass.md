@@ -1,3 +1,4 @@
+CVE-2022-47700
 
 I'll preface this by saying that obviously you do need to be connected to the network to perform this attack. You can achieve this by plugging directly into the router. This is assuming you have physical access or have the owner of the device provide you with the PSK or connect you themselves. Then and only then can you interface with the device.            
 
