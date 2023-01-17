@@ -1,3 +1,6 @@
+CVE-2022-47697
+
+
 this endpoint can be accessed unauthed after a password has been set for the admin account/the device is initiated and running.       
 
 ![image](https://user-images.githubusercontent.com/25066959/207155872-1a0f6741-6edf-4657-9d28-87ba9ec274f0.png)
