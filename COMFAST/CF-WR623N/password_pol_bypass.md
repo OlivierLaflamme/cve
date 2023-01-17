@@ -1,3 +1,5 @@
+CVE-2022-47699
+
 I realize that this is somewhat of a lame best practice vulnerability aimed at improving the overall security posture of the application and the users.               
 The application is not following its own security best practices. I understand that if somebody goes out of their way to put a shitty password, its really their fault but your policies should be applied consistently across the board to better improve the security posture of the application. 
 As seen below the frontend forces a 5-32 password             
