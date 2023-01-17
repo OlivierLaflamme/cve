@@ -1,4 +1,6 @@
 
+CVE-2022-47698
+
 The adv_filters_url.htm endpoint is the target of this vulnerability. This endpoint is used to add URL filters to the router. In which the variable SET0 is the location in and we're injecting into which handles the entry of the filter within a table. In our case we want to inject into the second field which is going to be UF2 which maps to 0x0a070202 which in tern is 168231426.          
 
 ![image](https://user-images.githubusercontent.com/25066959/207156439-7b744888-a5c0-4c93-bc6a-7f26c1db9b38.png)
