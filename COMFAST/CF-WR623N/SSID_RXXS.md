@@ -1,3 +1,4 @@
+CVE-2022-47701
 
 This one is fairly self explanatory, in the 3rd router setup step, you're allowed to configure the name of the SSID. Again, in the grand scheme of things, at the moment this is absolutely impact-less.         
 
