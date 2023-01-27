@@ -1,4 +1,10 @@
-CVE-2022-47700
+#### CVE-2022-47700
+#### Product:CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
+#### Firmware version V2.3.0.1 
+#### Driver version was 4.1.0.0_CL15074 
+#### Vendor Fix: N/A
+#### Impact: Unauthenticated Information Disclosure 
+------
 
 I'll preface this by saying that obviously you do need to be connected to the network to perform this attack. You can achieve this by plugging directly into the router. This is assuming you have physical access or have the owner of the device provide you with the PSK or connect you themselves. Then and only then can you interface with the device.            
 
