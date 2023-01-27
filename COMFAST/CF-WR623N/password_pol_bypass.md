@@ -1,10 +1,11 @@
 #### CVE-2022-47699
 #### Product: CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
+#### Vendor: COMFAST (Shenzhen Sihai Zhonglian Network Technology Co., Ltd)
 #### Firmware version: V2.3.0.1 
 #### Driver version: 4.1.0.0_CL15074 
 #### Vendor Fix: N/A
 #### Root Cause: Improper Clientside input checks resaulting in password policy bypass
-
+#### Description: The passwordpolicy is only implemented on the clientside and can be bypassed to set no password or a password with a length >8 
 --------
 
 I realize that this is somewhat of a lame best practice vulnerability aimed at improving the overall security posture of the application and the users.               
