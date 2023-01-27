@@ -1,6 +1,6 @@
 #### CVE-2022-47697
 #### Product: CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
-#### Firmware: version V2.3.0.1 
+#### Firmware version: V2.3.0.1 
 #### Driver version: 4.1.0.0_CL15074 
 #### Vendor Fix: N/A
 #### Impact: Unauth password change of root user account
