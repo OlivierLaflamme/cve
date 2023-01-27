@@ -1,10 +1,11 @@
 #### CVE-2022-47697
 #### Product: CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
+#### Vendor: COMFAST (Shenzhen Sihai Zhonglian Network Technology Co., Ltd)
 #### Firmware version: V2.3.0.1 
 #### Driver version: 4.1.0.0_CL15074 
 #### Vendor Fix: N/A
 #### Impact: Unauth password change of root user account
-
+#### Description: an unauthenticated user has the ability to reset the password of the admin user account
 -------
 
 this endpoint can be accessed unauthed after a password has been set for the admin account/the device is initiated and running.       
