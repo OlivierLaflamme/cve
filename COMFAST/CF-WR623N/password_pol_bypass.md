@@ -1,4 +1,11 @@
-CVE-2022-47699
+#### CVE-2022-47699
+#### Product:CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
+#### Firmware version V2.3.0.1 
+#### Driver version was 4.1.0.0_CL15074 
+#### Vendor Fix: N/A
+#### Root Cause: Improper Clientside input checks resaulting in password policy bypass
+
+--------
 
 I realize that this is somewhat of a lame best practice vulnerability aimed at improving the overall security posture of the application and the users.               
 The application is not following its own security best practices. I understand that if somebody goes out of their way to put a shitty password, its really their fault but your policies should be applied consistently across the board to better improve the security posture of the application. 
