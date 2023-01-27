@@ -1,5 +1,11 @@
+#### CVE-2022-47698
+#### Product:CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
+#### Firmware version V2.3.0.1 
+#### Driver version was 4.1.0.0_CL15074 
+#### Vendor Fix: N/A
+#### Root Cause: Lack of user input sanitization 
 
-CVE-2022-47698
+----------
 
 The adv_filters_url.htm endpoint is the target of this vulnerability. This endpoint is used to add URL filters to the router. In which the variable SET0 is the location in and we're injecting into which handles the entry of the filter within a table. In our case we want to inject into the second field which is going to be UF2 which maps to 0x0a070202 which in tern is 168231426.          
 
