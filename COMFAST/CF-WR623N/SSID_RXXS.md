@@ -1,4 +1,12 @@
-CVE-2022-47701
+#### CVE-2022-47701
+#### Product:CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
+#### Firmware version V2.3.0.1 
+#### Driver version was 4.1.0.0_CL15074 
+#### Vendor Fix: N/A
+#### Root cause: Lack of input sanitization
+--------
+
+Affected Component: 
 
 This one is fairly self explanatory, in the 3rd router setup step, you're allowed to configure the name of the SSID. Again, in the grand scheme of things, at the moment this is absolutely impact-less.         
 
