@@ -1,7 +1,7 @@
 #### CVE-2022-47698
-#### Product:CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
-#### Firmware version V2.3.0.1 
-#### Driver version was 4.1.0.0_CL15074 
+#### Product: CF-WR623N (http://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=98&id=13)
+#### Firmware: version V2.3.0.1 
+#### Driver version: 4.1.0.0_CL15074 
 #### Vendor Fix: N/A
 #### Root Cause: Lack of user input sanitization 
 
