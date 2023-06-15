@@ -1,4 +1,4 @@
-CVE: Pending        
+CVE: CVE-2023-34941       
 Version: 2.0.0.39        
 MD5: 461ff9bc8d79962101e8be65f3a56ab6         
 Firmware type Instr_set: MIPS       
