@@ -1,10 +1,10 @@
-CVE: 
-Product: Mt300v2 (http://www.totolink.cn/home/menu/detail.html?menu_listtpl=download&id=55&ids=36)
-Vendor: TOTOLINK (Zioncom (Hong Kong) Technology Limited)
-Firmware version: 4.0.3c.7484
-Vendor Fix: N/A
-Impact: Unauth password change of root user account
-Description: an unauthenticated user has the ability to run arbitrary commands on the endpoint.     
+CVE:        
+Product: Mt300v2 (http://www.totolink.cn/home/menu/detail.html?menu_listtpl=download&id=55&ids=36)         
+Vendor: TOTOLINK (Zioncom (Hong Kong) Technology Limited)       
+Firmware version: 4.0.3c.7484        
+Vendor Fix: N/A         
+Impact: Unauth password change of root user account           
+Description: an unauthenticated user has the ability to run arbitrary commands on the endpoint.               
 
 ----------
 
