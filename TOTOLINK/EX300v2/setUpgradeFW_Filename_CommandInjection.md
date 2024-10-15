@@ -33,3 +33,4 @@ The vulnerability is due to the fact that the "v2" variable, which is obtained f
 
 ![image](https://github.com/user-attachments/assets/6cccda7c-2e0f-48de-baea-d183656cffd1)
 
+![image](https://github.com/user-attachments/assets/c9020e61-8d63-49b4-90f2-49ed293e5b33)
