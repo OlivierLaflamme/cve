@@ -3,6 +3,7 @@
 **Module**: nathelper
 **Severity**: Critical (pre-auth remote code execution)
 **Tested against**: kamailio commit `7c2d6bffa348` (2026-04-21)
+**Reported to Kamailio**: Late April 2026
 **Fixed in**: [`792819cddb`](https://github.com/kamailio/kamailio/commit/792819cddb) ("nathelper: check for size of r-uri")
 **Committed**: 2026-04-24 23:35:44 +02:00
 **Stable backports**: Kamailio 6.1 [`a44c3ed1a1`](https://github.com/kamailio/kamailio/commit/a44c3ed1a1512fa725969880b2bdc033f9598620) (2026-05-18) and Kamailio 6.0 [`066f38b26d`](https://github.com/kamailio/kamailio/commit/066f38b26d2a6c2e0fee78304faf14364309107f) (2026-06-16)

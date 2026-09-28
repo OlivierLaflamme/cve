@@ -3,6 +3,7 @@
 **Module**: pua_bla
 **Severity**: High (pre-auth global buffer overflow, 325-byte write into 255-byte buffer)
 **Tested against**: kamailio commit `7c2d6bffa348` (2026-04-21)
+**Reported to Kamailio**: Late April 2026
 **Fixed in**: [`7f4c4c5a66`](https://github.com/kamailio/kamailio/commit/7f4c4c5a66) ("pua_bla: Verify header length")
 **Committed**: 2026-05-04 15:15:26 UTC
 **Stable backports**: Kamailio 6.1 [`0767d7386d`](https://github.com/kamailio/kamailio/commit/0767d7386ddc5892e3e9d5b19fb4219fb2020fe0) (2026-05-18) and Kamailio 6.0 [`573982c713`](https://github.com/kamailio/kamailio/commit/573982c71314bfc884fa611d40cdeecdbcf01bf6) (2026-06-16)

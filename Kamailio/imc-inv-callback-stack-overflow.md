@@ -3,6 +3,7 @@
 **Module**: imc
 **Severity**: High (stack overflow via attacker-controlled URI, triggered by timer)
 **Tested against**: kamailio commit `7c2d6bffa348` (2026-04-21)
+**Reported to Kamailio**: Late April 2026
 **Attempted fix in**: [`c4c7b919b8`](https://github.com/kamailio/kamailio/commit/c4c7b919b84ae861b02bc85d2fbc5bd747739b17) ("imc: Check member uri length")
 **Committed**: 2026-05-04 15:01:23 UTC
 **Status**: Incomplete fix; the affected callback remains unsafe in current upstream master as of 2026-09-28

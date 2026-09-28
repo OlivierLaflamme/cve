@@ -3,6 +3,7 @@
 **Module**: sipt
 **Severity**: Critical (pre-auth, attacker-controlled write, 480 bytes past buffer)
 **Tested against**: kamailio commit `7c2d6bffa348` (2026-04-21)
+**Reported to Kamailio**: Late April 2026
 **Fixed in**: [`3667bebf8d`](https://github.com/kamailio/kamailio/commit/3667bebf8d0bea07ed16218fd921d07db87aeb21) ("sipt: Add robust length validations in ISUP message parser")
 **Committed**: 2026-09-08 13:52:47 +02:00
 **Stable backports**: Kamailio 6.1 [`e668dca95a`](https://github.com/kamailio/kamailio/commit/e668dca95ab596e3863066354cece893408386d8) and Kamailio 6.0 [`7a7b742ea6`](https://github.com/kamailio/kamailio/commit/7a7b742ea6c7cbc7abb6aa4e7a0169dac754bdde), both committed 2026-09-08

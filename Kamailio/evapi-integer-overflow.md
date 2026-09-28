@@ -3,6 +3,7 @@
 **Module**: evapi
 **Severity**: High (pre-auth, crash/DoS via OOB read, potential code execution)
 **Tested against**: kamailio commit `7c2d6bffa348` (2026-04-21)
+**Reported to Kamailio**: Late April 2026
 **Fixed in**: [`ab2115d286`](https://github.com/kamailio/kamailio/commit/ab2115d286b48cbd784d332d9208603f68cf2741) ("evapi: check frame length with CLIENT_BUFFER_SIZE")
 **Committed**: 2026-08-25 09:25:33 +02:00
 **Stable backports**: Kamailio 6.1 [`0d09797907`](https://github.com/kamailio/kamailio/commit/0d09797907b957f42767b18a8190edef9f4c3c70) and Kamailio 6.0 [`10d12da657`](https://github.com/kamailio/kamailio/commit/10d12da657cf284813c6c1833db643aa97c90eb3), both committed 2026-09-15

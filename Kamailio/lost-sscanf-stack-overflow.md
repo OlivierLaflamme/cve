@@ -3,6 +3,7 @@
 **Module**: lost
 **Severity**: High (pre-auth stack overflow, attacker-controlled write size)
 **Tested against**: kamailio commit `7c2d6bffa348` (2026-04-21)
+**Reported to Kamailio**: Late April 2026
 **Fixed in**: [`7c6d17eb1d`](https://github.com/kamailio/kamailio/commit/7c6d17eb1d) ("lost: enhance lost_parse_geo to check for truncation of coordinates")
 **Committed**: 2026-05-04 15:14:31 UTC
 **Stable backports**: Kamailio 6.1 [`a88a6cbbb5`](https://github.com/kamailio/kamailio/commit/a88a6cbbb599c3faa0c88677107027ed13c311a5) (2026-05-18) and Kamailio 6.0 [`d7270e3ee8`](https://github.com/kamailio/kamailio/commit/d7270e3ee86e04d8335e80217f398839be564f94) (2026-06-16)
