@@ -7,6 +7,7 @@
 **Committed**: 2026-05-04 15:01:23 UTC
 **Status**: Incomplete fix; the affected callback remains unsafe in current upstream master as of 2026-09-28
 **Stable backports**: Kamailio 6.1 [`cd5228ec7e`](https://github.com/kamailio/kamailio/commit/cd5228ec7e0b9d3675282dcba8d7d025872d4363) (2026-05-18) and Kamailio 6.0 [`8b814fe480`](https://github.com/kamailio/kamailio/commit/8b814fe480750efcf671cc7534f2a6df1ebb0ecb) (2026-06-16), both carrying the same incomplete check
+**Reproduction config**: [`kamailio-imc.cfg`](./kamailio-imc.cfg)
 
 ---
 

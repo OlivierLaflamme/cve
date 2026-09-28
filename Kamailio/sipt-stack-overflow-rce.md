@@ -6,6 +6,7 @@
 **Fixed in**: [`6fb59101a0`](https://github.com/kamailio/kamailio/commit/6fb59101a0) ("sipt: Validate phone number length")
 **Committed**: 2026-04-28 09:48:39 UTC
 **Stable backports**: Kamailio 6.1 [`112cdcbce1`](https://github.com/kamailio/kamailio/commit/112cdcbce17df1e511890c255d2a2a0681efa7cb) (2026-05-18) and Kamailio 6.0 [`579081e2d6`](https://github.com/kamailio/kamailio/commit/579081e2d667f23a9ea1fdeeadc197c92d84b8fa) (2026-06-16)
+**Reproduction config**: [`kamailio-sipt.cfg`](./kamailio-sipt.cfg)
 
 ---
 

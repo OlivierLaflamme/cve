@@ -6,6 +6,7 @@
 **Fixed in**: [`53b63b8f55`](https://github.com/kamailio/kamailio/commit/53b63b8f55) ("imc: Add length check")
 **Committed**: 2026-05-04 14:46:55 UTC
 **Stable backports**: Kamailio 6.1 [`6120325bde`](https://github.com/kamailio/kamailio/commit/6120325bdecf0bb33ec72ed43b9e1104ecdb9b6f) (2026-05-18) and Kamailio 6.0 [`fef62df95c`](https://github.com/kamailio/kamailio/commit/fef62df95c80d02145a2da2395f3572b29273876) (2026-06-16)
+**Reproduction config**: [`kamailio-imc.cfg`](./kamailio-imc.cfg)
 
 ---
 
